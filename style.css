@@ -1,0 +1,83 @@
+body {
+  background: #1e1e2f;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  color: #fff;
+}
+.desktop {
+  background: #2d2d3a;
+  border-radius: 20px;
+  padding: 30px;
+  width: 600px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+}
+.app-row {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+.app-icon {
+  background: #3e3e4e;
+  padding: 15px 25px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: bold;
+  border: 2px solid transparent;
+}
+.app-icon:hover, .app-icon.active {
+  background: #5a5a70;
+  border-color: #00d4ff;
+}
+.ring-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ring {
+  background: #23232e;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+  margin-bottom: 30px;
+  border: 3px solid #00d4ff;
+}
+.ring-label {
+  font-size: 14px;
+  color: #aaa;
+}
+.ring-actions {
+  font-size: 32px;
+  margin-top: 10px;
+  letter-spacing: 10px;
+}
+.suggestions {
+  background: #3e3e4e;
+  border-radius: 15px;
+  padding: 20px;
+  width: 100%;
+}
+.suggestions h3 {
+  margin-top: 0;
+  color: #00d4ff;
+}
+#action-list {
+  list-style: none;
+  padding: 0;
+}
+#action-list li {
+  background: #2d2d3a;
+  margin: 8px 0;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 16px;
+}
